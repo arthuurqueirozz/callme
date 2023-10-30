@@ -31,6 +31,5 @@ form.addEventListener('submit', (e) => {
         let table = document.querySelector('tbody')
         table.innerHTML += lines
     }
-   
-    
+
 }) 
