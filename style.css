@@ -88,3 +88,8 @@ p{
 .border-invalid{
     border: 3px solid red;
 }
+
+a{
+    text-decoration: none;
+    color: #0D1821;
+}

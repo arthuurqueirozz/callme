@@ -23,10 +23,9 @@ form.addEventListener('submit', (e) => {
 
         let lines = '<tr>'
         lines += `<td>${nameContact.value}</td>`
-        lines += `<td>${numberContact.value}</td>`
+        lines += `<td><a href="tel:${numberContact.value}">${numberContact.value}</a></td>`
         lines+='</tr>'
 
-        
 
         let table = document.querySelector('tbody')
         table.innerHTML += lines
