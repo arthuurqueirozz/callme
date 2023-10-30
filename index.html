@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Me</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://cdn-icons-png.flaticon.com/128/9385/9385270.png" alt="agenda de contatos">
+            <h1>Call Me - Agenda de contatos</h1>
+        </header>
+
+        <form id="form">
+            <h2>Adicione um contato</h2>
+            <input id="name-contact" type="text" required placeholder="Nome">
+            <input id="number-contact" type="number" required placeholder="Número"> 
+            <button type="submit">CADASTRAR</button>
+            <p id="invalid-input" class="invalid-number">Número já inserido!</p>
+        </form>
+
+        <table>
+            <h2>Contatos</h2>
+            <thead>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
